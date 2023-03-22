@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import './App.css';
+import BackDrop from './components/backdrop/BackDrop';
 import { ListWithLoading } from './components/github/list';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <div className="App">
       <ListWithLoading isLoading={isLoading} repos={repos} />
       <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <BackDrop />
     </div>
   );
 }
