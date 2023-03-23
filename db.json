@@ -1,0 +1,10 @@
+{
+  "heros": [
+    { "name": "Wonder woomen", "age": 26 },
+    { "name": "Batman", "age": 36 },
+    { "name": "Iron man", "age": 15 },
+    { "name": "Spider man", "age": 59 },
+    { "name": "Thor", "age": 90 },
+    { "name": "Alice baby", "age": 20 }
+  ]
+}
